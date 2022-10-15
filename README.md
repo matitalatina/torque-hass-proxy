@@ -10,12 +10,19 @@ So you need a proxy that supports both https and adds the [long lived token](htt
 
 This little proxy solves both problems.
 
-You can compile it and run it on your Android phone using [Termux](https://termux.com/).
+You can download the executable `torque-hass-proxy-android-arm64` [from here](https://github.com/matitalatina/torque-hass-proxy/releases/tag/v1.0.0), move it into your and run it on your Android phone using [Termux](https://termux.com/).
 
-For example, if you compile it and call it `termux-proxy`. You can run it
+For example, from android termux. You can run
 
 ```bash
-./termux-proxy -url <YOUR_HOME_ASSISTANT_URL> -token <HOME_ASSISTANT_LIVE_TOKEN>
+# Install curl
+pkg install curl
+
+# Download the executable with curl
+curl -L -o torque-hass-proxy https://github.com/matitalatina/torque-hass-proxy/releases/download/v1.0.0/torque-hass-proxy-android-arm64
+
+# Run torque-hass-proxy
+./torque-hass-proxy -url <YOUR_HOME_ASSISTANT_URL> -token <HOME_ASSISTANT_LIVE_TOKEN>
 ```
 
 then you have the port `8090` open and you can put `http://localhost:8090/api/torque` in Torque -> Settings -> Data Logging & Upload -> Webserver URL.
