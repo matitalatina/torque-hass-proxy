@@ -28,3 +28,12 @@ Finally, you should see torque data in your Home Assistant! If you add also [pro
 
 - *Too many steps just to record torque data! Is there any way to simplify it?* No, but you can automate everything with [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=it&gl=US). If my phone connects with my OBD dongle, Tasker starts automatically both torque and this proxy using [Termux:Tasker](https://play.google.com/store/apps/details?id=com.termux.tasker&hl=it&gl=US).
 - *How did you find this workaround?* This proxy is heavily inspired from this [Github comment](https://github.com/home-assistant/core/issues/28836#issuecomment-579887196). I chose Go because I don't want to use nodeJS runtime on my android phone, I wanted a native program.
+
+## Support my work
+
+Everything I made is open source.
+If you like what I'm doing and you want to support me, you can help me 😄!
+
+- Sponsor me with [Github](https://github.com/sponsors/matitalatina)
+- [Buy me a coffee](https://www.buymeacoffee.com/mattianatali)
+- [Paypal](https://paypal.me/mattianatali)
