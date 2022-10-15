@@ -10,6 +10,8 @@ So you need a proxy that supports both https and adds the [long lived token](htt
 
 This little proxy solves both problems.
 
+## Getting started
+
 You can download the executable `torque-hass-proxy-android-arm64` [from here](https://github.com/matitalatina/torque-hass-proxy/releases/tag/v1.0.0), move it into your and run it on your Android phone using [Termux](https://termux.com/).
 
 For example, from android termux. You can run
