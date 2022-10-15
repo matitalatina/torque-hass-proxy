@@ -23,6 +23,9 @@ pkg install curl
 # Download the executable with curl
 curl -L -o torque-hass-proxy https://github.com/matitalatina/torque-hass-proxy/releases/download/v1.0.0/torque-hass-proxy-android-arm64
 
+# Grant execution permission for it
+chmod +x torque-hass-proxy
+
 # Run torque-hass-proxy
 ./torque-hass-proxy -url <YOUR_HOME_ASSISTANT_URL> -token <HOME_ASSISTANT_LIVE_TOKEN>
 ```
